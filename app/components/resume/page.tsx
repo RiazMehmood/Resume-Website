@@ -5,21 +5,21 @@ import { SiChakraui, SiTypescript } from "react-icons/si";
 
 export default function Resume() {
   return (
-    <div className="min-h-[70vh] ml-10 mr-10">
+    <div className="min-h-screen mx-auto px-6 md:px-12">
       <p className="mt-18 text-4xl font-sans border-b-2">Resume</p>
       <div className="bg-gray-100 -my-9">
-        <div className="grid grid-cols-[18rem,9rem,1fr,2rem] my-10 ml-96">
-          <div className="text-4xl underline font-semibold my-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 my-10">
+          <div className="text-3xl font-semibold my-10 md:col-span-1">
             Education
           </div>
-          <div>
+          <div className="md:col-span-1">
             <ul>
               <li className="my-10">2000-2001</li>
               <li className="my-10">2002-2004</li>
               <li className="my-10">2005-2009</li>
             </ul>
           </div>
-          <div>
+          <div className="md:col-span-2">
             <ul className="text-xl font-bold font-mono">
               <li className="my-10 flex">
                 Matriculation<p className="mx-5 font-medium text-xl">Science</p>
@@ -35,13 +35,12 @@ export default function Resume() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-[18rem,9rem,1fr,2rem] my-10 ml-96">
-          <div className="text-4xl underline font-semibold my-10">Skills</div>
-          <div></div>
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+          <div className="text-3xl font-semibold my-10 md:col-span-1">Skills</div>
+          <div className="md:col-span-1">
             <ul className="text-xl font-bold font-mono">
               <li className="my-10 flex">
-                HTML <FaHtml5 />, JavaScript <IoLogoJavascript />, CSS{" "}
+                HTML <FaHtml5 />, JavaScript <IoLogoJavascript />, CSS
                 <FaCss3 />
               </li>
               <li className="my-10 flex">

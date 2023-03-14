@@ -1,7 +1,5 @@
-import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -12,39 +10,77 @@ export default function Projects() {
         <div className="text-4xl underline font-semibold"></div>
           
           <div>
-            <h1 className="text-4xl font-bold underline">Website Templates</h1>
+            <h1 className="text-2xl font-bold">Website Templates</h1>
           </div>
         </div>
-        <div className="grid grid-cols-[18rem,9rem,1fr,2rem] ">
-          <div className="text-4xl underline font-semibold my-10"></div>
-          <div>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
             <h1>Resume Website</h1>
           </div>
-          <div>
-            <h2>Github Url</h2>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
           </div>
           <div></div>
         </div>
-        <div className="grid grid-cols-[18rem,9rem,1fr,2rem] my-10 ">
-          <div className="text-4xl underline font-semibold my-10"></div>
-          <div>
-            <h1> Website Templates</h1>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
+            <h1>PIAIC Website</h1>
           </div>
-          <div>
-            <h2>Project Name</h2>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
           </div>
           <div></div>
         </div>
-        <div className="grid grid-cols-[18rem,9rem,1fr,2rem] my-10 ">
-          <div className="text-4xl underline font-semibold my-10"></div>
-          <div>
-            <h1> Website Templates</h1>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
+            <h1>Panaverse Website</h1>
           </div>
-          <div>
-            <h2>Project Name</h2>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
           </div>
           <div></div>
         </div>
+        <div className="grid grid-cols-[10rem,20rem,1fr,2rem] my-10 ">
+        <div className="text-4xl underline font-semibold"></div>
+          
+          <div>
+            <h1 className="text-2xl font-bold">TypeScript CLI Projects</h1>
+          </div>
+        </div>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
+            <h1>Resume Website</h1>
+          </div>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
+          </div>
+          <div></div>
+        </div>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
+            <h1>PIAIC Website</h1>
+          </div>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
+          </div>
+          <div></div>
+        </div>
+        <div className="grid grid-cols-[10rem,14rem,1fr,2rem] ">
+          <div></div>
+          <div className="text-xl font-semibold">
+            <h1>Panaverse Website</h1>
+          </div>
+          <div className="text-2xl font-semibold">
+            <h2><Link href={'https://github.com/RiazMehmood/Resume-Website'}><BsGithub/></Link></h2>
+          </div>
+          <div></div>
+        </div>         
+        
       </div>
     </div>
   );
