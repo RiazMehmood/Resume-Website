@@ -35,7 +35,7 @@ export default function Resume() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
           <div className="text-3xl font-semibold my-10 md:col-span-1">Skills</div>
           <div className="md:col-span-1">
             <ul className="text-xl font-bold font-mono">

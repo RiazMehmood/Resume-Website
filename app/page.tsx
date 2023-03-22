@@ -3,7 +3,7 @@ export default function Home() {
     <div className="flex flex-col md:flex-row items-center justify-center min-h-[70vh]">
       <div className="rounded-full w-80 h-70 overflow-hidden flex-shrink-0 md:mr-8">
         <img
-          src="/pic.png"
+          src="/image.jfif"
           alt="mypic"
           className="h-full w-full object-cover"
         />
